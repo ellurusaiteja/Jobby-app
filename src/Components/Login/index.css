@@ -1,0 +1,79 @@
+.login-route-container {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 5%;
+}
+
+.login-container {
+  background-color: #272727;
+  padding: 5%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.login-website-image {
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.inputs-label {
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.user-input {
+  background-color: transparent;
+  padding: 8px 15px;
+  border: #6366f1 solid 0.5px;
+  outline: none;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.login-button {
+  width: 100%;
+  background-color: #4f46e5;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 8px 0px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.error-message {
+  color: #ff0b37;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .login-container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .login-container {
+    width: 60%;
+  }
+}
